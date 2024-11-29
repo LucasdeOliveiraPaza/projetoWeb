@@ -19,12 +19,15 @@
     </h4>
     <hr>
 
-    <form action="../back-end/processa_form.php" method="get">
+    <form action="../back-end/processa_form.php" method="post">
         <label>Nome:</label>
         <input type="text" name="nome" placeholder="Escreva seu nome">
 
         <label>Idade:</label>
         <input type="number" name="idade" value="18" min="0">
+
+        <label>Senha:</label>
+        <input type="password" name="senha">
 
         <button type="submit">Enviar</button>
     </form>
